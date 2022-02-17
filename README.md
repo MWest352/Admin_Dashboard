@@ -1,0 +1,2 @@
+The goal of this project is to create a HTML and CSS Admin Dashboard esque page showcasing knowledge of CSS Grid.  For further instructions please visit
+https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/admin-dashboard
