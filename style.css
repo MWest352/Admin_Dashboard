@@ -1,13 +1,15 @@
+/* Zeroing out body */
 body{
   margin: 0;
   padding: 0;
 }
 
+/* Border for visualizing grids, will be deleted */
 *{
   border:1px solid black
 }
 
-
+/* Main Container */
 .mainContainer{
   display: grid;
   height: 100vh;
@@ -20,20 +22,24 @@ body{
     "dashboard projects projects trending";
 } 
   
+/* Groupings */
 .projectsMain, .announcements, .trending{
 background-color: #E2E8F0;
 }
 
+/* Header Section */
 .header{
   background-color: whitesmoke;
   grid-area: header;
 }
 
+/* Dashboard Section */
 .dashboard{
   background-color: #1992D4;
   grid-area: dashboard;
 }
 
+/* Project Section */
 .projectsMain{
   padding: 10px;
   grid-area: projects; 
@@ -81,15 +87,19 @@ background-color: #E2E8F0;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
+
 .material-icons{
   font-family: 'Material-Icons'; 
   text-align: center;
 }
 
+
+/* Announcements Section */
 .announcements{
   grid-area: announcements;
 }
 
+/* Trending Section */
 .trending{
   grid-area: trending;
 }
