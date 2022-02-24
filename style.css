@@ -33,8 +33,35 @@ background-color: #E2E8F0;
 .header{
   background-color: whitesmoke;
   grid-area: header;
+  padding: 10px;
 }
 
+.headerTop, .headerBottom{
+  display: grid;
+  margin: 5px;
+  gap: 3px;
+}
+
+.headerTop{
+  grid-template-columns: .1fr 3fr .1fr .1fr 1fr;
+}
+
+
+.headerBottom{
+  grid-template-columns: .2fr 2fr 2fr;
+}
+
+.buttons{
+  padding: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.button{
+  background-color: #1992D4;
+  color:#E2E8F0
+}
 
 /* Dashboard Section */
 .dashboard{
