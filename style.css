@@ -34,6 +34,7 @@ background-color: #E2E8F0;
   background-color: whitesmoke;
   grid-area: header;
   padding: 10px;
+  /* box-shadow: 0 4px 4px -2px #CCD1D9; */
 }
 
 .headerTop, .headerBottom{
@@ -58,9 +59,27 @@ background-color: #E2E8F0;
   gap: 20px;
 }
 
+.search{
+  background-color: lightgrey;
+  border-radius: 25px;
+  border: none
+}
+
+#smallAvatar{
+  border-radius: 20px;
+}
+
+#largeAvatar{
+  border-radius: 20px;
+  align-self: center;
+}
+
 .button{
   background-color: #1992D4;
-  color:#E2E8F0
+  color:white;
+  border-radius: 25px;
+  width: 100px;
+  font-weight: 900;
 }
 
 /* Dashboard Section */
