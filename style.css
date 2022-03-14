@@ -6,9 +6,9 @@ body{
 
 /* Border for visualizing grids, will be deleted */
 
-/* {
+/* *{
   border:1px solid black;
-} */
+}  */
 
 /* Main Container */
 .mainContainer{
@@ -175,12 +175,15 @@ span{
   grid-column-start: 2;
   grid-column-end: 6;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+  justify-self: right;
+  
 }
 
 .material-icons{
   font-family: 'Material-Icons'; 
   text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /* Announcements Section */
@@ -212,6 +215,9 @@ span{
 .communityShareDay{
   padding-top: 15px;
   padding-bottom: 15px;
+  border-top: solid #E2E8F0;
+  border-bottom: solid #E2E8F0;
+  border-width: thin;
 }
 
 .updatedPrivacyPolicy{
